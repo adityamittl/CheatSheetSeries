@@ -237,7 +237,7 @@ During the build phase, you should secure your Kubernetes container images by bu
 
 A container image (CI) is an immutable, lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings [<https://www.docker.com/resources/what-container>]. Each image shares the kernel of the operating system present in the host machine.
 
-Your CIs must be built on a approved and secure base image. This base imate must be scanned and monitored at regular intervals to ensure that all CIs are based on a secure and authentic image. Implement strong governance policies that determine how images are built and stored in trusted image registries.
+Your CIs must be built on a approved and secure base image. This base image must be scanned and monitored at regular intervals to ensure that all CIs are based on a secure and authentic image. Implement strong governance policies that determine how images are built and stored in trusted image registries.
 
 --
 
